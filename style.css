@@ -1,0 +1,95 @@
+body{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    background-color: #005;
+    transition: 0.8s;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+input{
+    border-radius: 40px;
+    height: 30px;
+    width: 3px;
+    border: solid cornsilk 1px;
+    color:burlywood;
+    background-color: #005;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    transition: 0.8s;
+}
+h2,h1 {
+    text-decoration:underline rgb(255, 38, 0);
+    transition: 0.8s;
+}
+hr{
+    color: rgb(255, 38, 0);
+    transition: 0.8s;
+    height: 1px;
+}
+.container{
+    background-color: #005;
+    padding: 5%;
+    margin: auto;
+    width: max-content;
+    border-radius: 20px;
+    margin-top: 80px;
+    border: 2px rgb(255, 38, 0) solid;
+    color: #005;
+    transition: 0.8s;
+    cursor:alias;
+}
+button{
+    margin: 20px;
+    padding: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 40px;
+    border: solid cornsilk 1px;
+    color: rgb(255, 38, 0);
+    background-color: #005;
+    text-align: center;
+    font-weight: bolder;
+    width: 90px;
+    transition: 0.8s;
+}
+.container:hover{
+    background-color: cornsilk;
+    padding: 5%;
+    margin: auto;
+    width: max-content;
+    border-radius: 20px;
+    margin-top: 80px;
+    border: 2px cornsilk solid;
+    color: #005;
+}
+input:hover{
+    border-radius: 40px;
+    height: 30px;
+    width: 200px;
+    border: solid #005 1px;
+    color:#005;
+    background-color: cornsilk;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+}
+button:hover{
+    margin: 20px;
+    padding: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 40px;
+    border: solid #005 1px;
+    color: #005;
+    background-color: cornsilk;
+    text-align: center;
+    font-weight: bolder;
+    width: 90px;
+}
+h2:hover,h1:hover{
+    color: rgb(255, 38, 0);
+    text-decoration:underline #005;
+}
